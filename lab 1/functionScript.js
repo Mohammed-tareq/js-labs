@@ -124,28 +124,28 @@
 // }
 
 
-let sum = () => {
-    let x, y;
-    do {
-
-        x = prompt("frist num");
-        y = prompt("scound num");
-
-        x = Number(x);
-        y = Number(y);
-        if (isNaN(x) || isNaN(y))
-
-            alert("please enter a valid number");
-
-        else
-            return x + y;
-    }
-    while (isNaN(x) || isNaN(y));
-}
-
-
-console.log(sum());
-
+// let sum = () => {
+//     let x, y;
+//     do {
+//
+//         x = prompt("frist num");
+//         y = prompt("scound num");
+//
+//         x = Number(x);
+//         y = Number(y);
+//         if (isNaN(x) || isNaN(y))
+//
+//             alert("please enter a valid number");
+//
+//         else
+//             return x + y;
+//     }
+//     while (isNaN(x) || isNaN(y));
+// }
+//
+//
+// console.log(sum());
+//
 
 
 
