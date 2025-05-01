@@ -25,8 +25,8 @@
 
 // //======================================================================================================================
 //  let className = doucment.querySelectorAll(".fontBlue .BGrey");
-// let className = doucment.getElementsByClassName("fontBlue");
-// let className = doucment.getElementsByClassName("BGrey");
+//  let className = doucment.querySelector(".fontBlue .BGrey");
+// let className = doucment.getElementsByClassName("fontBlue BGrey");
 
 //======================================================================================================================
 // function updateTimeTitle(){
