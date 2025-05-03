@@ -36,16 +36,16 @@
 // setInterval(updateTimeTitle,10000);
 
 //======================================================================================================================
- let seachUrl = location.search;
-let handelUrl = seachUrl.substring(1);
-let urlToArr = handelUrl.split('&');
-let obj ={};
-urlToArr.forEach((elemant)=>{
-    let url =elemant.split('=');
-    obj[url[0]] = url[1];
-})
-
-console.log(obj);
-
+//  let seachUrl = location.search;
+// let handelUrl = seachUrl.substring(1);
+// let urlToArr = handelUrl.split('&');
+// let obj ={};
+// urlToArr.forEach((elemant)=>{
+//     let url =elemant.split('=');
+//     obj[url[0]] = url[1];
+// })
+//
+// console.log(obj);
+//
 
 
